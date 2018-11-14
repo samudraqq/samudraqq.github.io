@@ -1,0 +1,72 @@
+.footer {
+margin-top:20px;
+margin-bottom:10px;
+font-size:11px;
+color:#fff;
+height:105px;
+background:url(../images/footer.png) no-repeat bottom right;
+}
+
+.footertext {
+	font-size:12px;
+	color:#fff;
+	width:800px;
+	height:100px;
+	margin:0 auto;
+	text-align:center;	
+}
+.footertext a {
+	color:#f00;
+		
+}
+
+.footertext a:hover{
+	color:#f00;
+	text-shadow:1px 1px 3px #fff;
+	-webkit-transition:background 0,5s ease;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;color:#FFF;	
+}
+
+.copyright {
+	color:#F00;
+}
+
+.footlogo {
+margin:0 10px;
+}
+
+.footbank {
+margin-bottom:10px;
+}
+
+ul.footnav, ul.footnav li {
+margin:0;
+padding:0;
+list-style:none;
+margin-bottom:5px;
+}
+
+ul.footnav {
+margin-top:30px;
+display:inline-table;
+}
+
+ul.footnav li {
+float:left;
+border-left:1px solid #fff; 
+padding:0 8px;
+line-height:10px;
+}
+
+ul.footnav li:first-child {
+border:none;
+padding-left:0;
+}
+
+ul.footnav li a {
+color:#fff;
+}

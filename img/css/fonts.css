@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'agaramondProItalic';
+    src: url('../fonts/adobegaramondpro/agaramondproitalic.html');
+    src: url('../fonts/adobegaramondpro/agaramondproitalicd41d.html?#iefix') format('embedded-opentype'),
+         url('../fonts/adobegaramondpro/agaramondproitalic-2.html') format('woff'),
+         url('../fonts/adobegaramondpro/agaramondproitalic-3.html') format('truetype'),
+         url('../fonts/adobegaramondpro/agaramondproitalic-4.html#agaramondproitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

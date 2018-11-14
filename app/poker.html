@@ -1,0 +1,88 @@
+<style type="text/css">
+.jackpot{
+	background:transparant no-repeat top;
+	font-size:35px;
+	font-family:arial;
+	font-weight:bold;
+	height:50px;
+	width:250px;
+	color:#FFFF00;
+	border:0px solid white;
+	text-align: center;
+}
+#jokiqq
+{
+	text-decoration:blink;
+	margin-top: 0px;
+	color: white;
+}
+
+</style>	
+</head>
+
+<body><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26341965-1']);
+  _gaq.push(['_setDomainName', '.geocities.ws']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<div class="jackpot"><div id="jokiqq">869,989,890</div></div>
+
+<input type="hidden" id="joki" name="joki" value="869989890">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var delay = 700000;
+        var jackpot = 0;
+        var timer;
+
+        pull_jackpot();
+        function pull_jackpot() {
+            var nominal = parseInt($('#joki').val());
+            if (jackpot == 0) {
+				jackpot = parseInt(nominal - 100000);
+			}
+            var amount = 100000 / delay * 1;
+            timer = setInterval(function() { jackpot = set_jackpot(jackpot, nominal, amount); }, 1);
+        }
+
+        function set_jackpot(jackpot, nominal, amount) {
+            var jackpot = jackpot + amount;
+            if (jackpot >= nominal) {
+                clearInterval(timer);
+                pull_jackpot();
+            } else {
+                var result = addCommas(parseInt(jackpot));
+                $('#jokiqq').html(result);
+            }
+			
+            return jackpot;
+        }
+        function addCommas(nStr) {
+            nStr += '';
+            x = nStr.split('.');
+            x1 = x[0];
+            x2 = x.length > 1 ? '.' + x[1] : '';
+            var rgx = /(\d+)(\d{3})/;
+            while (rgx.test(x1)) {
+                x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+            return x1 + x2;
+        }
+    });
+</script>
+
+
+
+</body>
+
+</html>

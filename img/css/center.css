@@ -1,0 +1,188 @@
+.sidebank {
+background:url(../images/sidebank.png);
+padding:20px;
+position:fixed;
+top:200px;
+
+-moz-border-radius:7px;
+-o-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px;
+}
+
+.sidebank ul, .sidebank li {
+margin:0; padding:0; list-style:none;
+}
+
+.sidebank li {
+margin-top:5px;
+}
+
+.sidebank li:first-child {
+margin-top:0px;
+}
+
+.contact {
+	position:relative;
+	margin-top:7px;
+	margin-bottom:-25px;
+	margin-left:5px;
+}
+
+.step {
+-moz-border-radius:10px;
+-o-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+
+-moz-box-shadow:17px 17px 16px #000;
+-o-box-shadow:17px 17px 16px #000;
+-webkit-box-shadow:17px 17px 16px #000;
+box-shadow:17px 17px 16px #000;
+}
+
+.step img {
+margin-bottom:-2px;
+}
+
+.last_trans_wrapper {
+background:url(../images/trans_wrapper.png) no-repeat;
+height:261px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+.last_trans {
+width:315px;
+height:261px;
+float:left;
+margin-right:3px;
+}
+
+.hdg_lastrans {
+position:relative;
+top:5px;
+margin-left:60px;
+}
+
+.last_trans table {
+border-spacing:0;
+border-collapse:collapse;
+margin-top:55px;
+margin-bottom:12px;
+margin-left:65px;
+width:225px;
+}
+
+.last_trans table tr td {
+padding:10px 5px 10px 8px;
+color:#fbec75;
+font-size:12px;
+}
+
+/* CSS CONDITIONAL FOR FIREFOX ONLY */
+@-moz-document url-prefix() {
+.last_trans table tr td {
+padding:10px 5px 10px 8px;
+    }
+	
+	
+}
+
+
+
+.last_trans table tr td:nth-child(2) {
+}
+
+.last_trans table tr td:last-child {
+text-align:right;
+color:#fff;
+}
+
+.sidecontact {
+margin-top:15px;
+margin-left:-90px;
+}
+
+.sidecontact ul, .sidecontact li {
+margin:0; padding:0; list-style:none;
+}
+
+.sidecontact td, .sidecontact td a {
+color:#fff;
+line-height:53px;
+}
+
+.sidecontact td {
+padding-left:32px;
+padding-right:20px;
+margin-bottom:5px;
+text-align:center;
+height:30px;
+cursor:pointer;
+
+-moz-transition-duration:0.5s;
+-o-transition-duration:0.5s;
+-webkit-transition-duration:0.5s;
+transition-duration:0.5s;
+}
+
+.phone {
+background:url(../images/line.png) no-repeat;
+}
+
+.bbm {
+background:url(../images/bbm.png) no-repeat;
+}
+
+.ym {
+background:url(../images/skype.png) no-repeat;
+}
+
+.line {
+background:url(../images/line.png) no-repeat;
+}
+
+.sidecontact li:hover {
+margin-right:0;
+}
+
+.centerheading {
+color:#00fe96;
+font-size:18px;
+}
+
+.post-home {
+width:95%;
+margin:0 auto;
+}
+
+
+/* jackpot */
+.jackpot {
+height:75px;
+background:url(../images/jackpot.png) no-repeat;
+position:relative;
+}
+
+.totaljackpot, .totaljackpot2 {
+position:absolute;
+color:#fff;
+font-size:30px;
+text-align:center;
+font-weight:bold;
+letter-spacing:15.5px;
+top:31px;
+text-shadow:1px 1px 1px #000;
+}
+
+.totaljackpot {
+left:175px;
+}
+
+.totaljackpot2 {
+right:-11px;
+}
+
+
+

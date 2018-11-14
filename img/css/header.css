@@ -1,0 +1,149 @@
+/* start HEADER - TOP */
+
+.logoWrapper {
+position:relative;
+}
+
+.logo {
+margin:40px 0;
+}
+
+#frmlogin {
+width:280px;
+margin-left:265px;
+height:115px;
+background:url(../images/bglogin.png) no-repeat;
+display:inline-table;
+position:relative;
+}
+
+#username, #password, #code {
+position:absolute;
+background:none;
+border:none;
+height:23px;
+padding:0 5px 0 5px;
+color:#ccc;
+top:3px;
+}
+
+#username, #password {
+width:94px;
+}
+
+#username {
+left:30px;
+top:10px;
+}
+
+#password {
+left:30px;
+top:48px;
+}
+
+#code {
+width:40px;
+left:220px;
+}
+
+.img_code {
+position:absolute;
+top:3px;
+left:272px;
+}
+
+#login { 
+  border: medium none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  height: 26px;
+  position: absolute;
+  right: 36px;
+  text-shadow: 0 2px 3px #111;
+  top: 47px;
+  width: 103px;
+  background: 0;
+  border: 0;
+}
+#register {
+  background: url(../images/login-bghver.gif);
+  background-color: none;
+  border: medium none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  height: 26px;
+  position: absolute;
+  right: 36px;
+  text-shadow: 0 2px 3px #111;
+  top: 12px;
+  width: 103px;  
+  border: 0;
+}
+.lupapass, .daftar {
+position:absolute;
+display:block;
+height:11px;
+top:9px;
+}
+
+.lupapass {
+right:0px;
+width:81px;
+}
+
+.daftar {
+width:30px;
+right:0px;
+}
+
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+}
+
+:-ms-input-placeholder {  
+   color: #fff;
+}
+
+.runningtext {
+height:28px;
+margin:0px 0 0 0;
+padding:5px 0;
+}
+
+
+.runningtext_content {
+  color: #fff;
+  font-family: lucida sans unicode,arial,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  height: 28px;
+  line-height: 30px;
+  padding: 1px 0;
+  text-transform: uppercase;
+}
+
+#sectionInfo{
+	height:29px;
+	width:755px;
+	background:url('../images/info.png') no-repeat;
+	margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:0; padding-left:80px; padding-right:125px; padding-top:15px; padding-bottom:15px
+}
+#sectionInfo marquee{
+	color:#ffffff;
+	font-size:18px;
+	font-family:Arial;
+	
+}
+
+/* end HEADER - TOP */

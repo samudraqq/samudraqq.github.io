@@ -1,0 +1,42 @@
+.slideshow_wrapper {
+height:366px;
+width:966px;
+margin:0 auto;
+}
+
+.slideshow {
+margin-left:0px;
+padding-top:0px;
+background-image:url(../images/bg_slider.png);
+}
+
+/* SIDE REGISTRATION */
+.side_registration {
+position:relative;
+margin-top:-20px;
+width:290px;
+height:394px;
+background:url(../images/side_registration.html) no-repeat top;
+}
+
+.img_slideshow {
+overflow:hidden;
+-moz-border-radius: 15px 0 0 15px;
+-o-border-radius: 15px 0 0 15px;
+-webkit-border-radius: 15px 0 0 15px;
+border-radius:  15px 0 0 15px;
+}
+
+.but_sideregister {
+display:block;
+width:245px;
+height:54px;
+background:url(../images/but_register.html) no-repeat top;
+position:absolute;
+bottom:30px;
+right:20px;
+}
+
+.but_sideregister:hover {
+background-position:bottom;
+}

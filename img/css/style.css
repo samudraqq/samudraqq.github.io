@@ -1,0 +1,47 @@
+body {
+font-family: arial;
+color:#fff;
+font-size:14px;
+background:url(../images/bgbody.jpg) no-repeat top center fixed;
+background-color:#110303;
+margin:0; padding:0;
+line-height:1.5em;
+background-position:center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bgbody.html',     
+
+sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/bgbody.jpg)', 
+
+sizingMethod='scale');
+}
+
+img {
+border:none;
+}
+
+a {
+color:#fff;
+text-decoration:none;
+}
+
+.container {
+width:960px;
+margin:0 auto;
+}
+
+
+/* CLEAR STYLE */
+.clear, div.clear, li.clear, span.clear {
+clear:both;
+float:none;
+}
+
+
+/* margin - padding */
+.mleft6 {
+margin-left:3px;
+}
